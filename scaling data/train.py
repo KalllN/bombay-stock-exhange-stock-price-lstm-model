@@ -10,10 +10,6 @@ x_train, y_train = [], []
 for i in range(60, len(train_data)):
   x_train.append(train_data[i-60:i, 0])
   y_train.append(train_data[i, 0])
-  if i <= 60:
-    print(x_train)
-    print(y_train)
-    print()
 
 #Convert x_train & y_train to numpy array
 x_train, y_train = np.array(x_train), np.array(y_train)
