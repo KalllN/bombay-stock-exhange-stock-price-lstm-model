@@ -9,7 +9,7 @@ from keras.layers import Dense, LSTM
 import matplotlib.pyplot as plt
 plt.style.use('fivethirtyeight')
 #Getting the data
-df = web.DataReader('JPM', data_source = 'yahoo', start = '2012-01-01', end = '2020-12-31')
+df = web.DataReader('^BSESN', data_source = 'yahoo', start = '2012-01-01', end = '2021-04-15')
 
 #creating new datafile with only 'close' column
 data = df.filter(['Close'])
