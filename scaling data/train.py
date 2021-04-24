@@ -1,7 +1,6 @@
 #80% training data, rounded up using math.ceil
 training_model_len = math.ceil(len(dataset) * 0.8)
 
-
 #Creating training dataset
 train_data = scaled_data[0: training_model_len, :]
 
