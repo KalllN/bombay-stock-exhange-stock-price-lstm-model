@@ -1,4 +1,4 @@
-# bombay-stock-exchange-stock-price-lstm
+# Stock Price Prediction using LSTM model
 
 In recent years, computer science has joined advanced mathematics in revolutionizing finance and trading, the practice of buying and selling of financial assets for the purpose of making a profit. Recently, computers have dominated trading.
 
